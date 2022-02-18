@@ -17,7 +17,7 @@ html {
   box-sizing: border-box;
   color: inherit; }
 
-ul,
+ul
 li {
   list-style: none; }
 
@@ -95,6 +95,16 @@ li {
 .oybek-more {
   color: #fff;
   font-size: 5rem; }
+
+.oybek-main-section {
+  margin-top: 50px; }
+  .oybek-main-section input {
+    border: none;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    padding: 5px 5px;
+    background: none;
+    width: 150px; }
 
 .little-text {
   width: 100%;

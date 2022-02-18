@@ -46,15 +46,15 @@
     }
   }
 }
-.oybek-top-title{
+.oybek-top-title {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  .oybek-right-menu{
+  .oybek-right-menu {
     display: flex;
     height: 40px;
-gap: 5px;
-align-items: center;
+    gap: 5px;
+    align-items: center;
   }
 }
 .oybek__catygory--1 {
@@ -72,21 +72,32 @@ align-items: center;
     gap: 20px;
     .oybek-left-title {
       line-height: 30px;
-      p{
+      p {
         color: $color-white;
       }
-      pre{
-        color:$color-6;
+      pre {
+        color: $color-6;
         font-size: 14px;
       }
-      h1{
+      h1 {
         color: $color-white;
         font-size: 40px;
       }
     }
   }
 }
-.oybek-more{
+.oybek-more {
   color: $color-white;
   font-size: 5rem;
+}
+.oybek-main-section {
+  margin-top: 50px;
+  input {
+    border: none;
+    border-bottom: 2px solid $color-white;
+    color: $color-white;
+    padding: 5px 5px;
+    background: none;
+    width: 150px;
+  }
 }
