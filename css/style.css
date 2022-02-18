@@ -39,6 +39,14 @@ li {
     color: #fff;
     font-size: 40px; }
 
+.oybek__catygory {
+  margin-top: 40px; }
+  .oybek__catygory h2 {
+    color: #fff;
+    font-size: 20px; }
+  .oybek__catygory img {
+    width: 200px; }
+
 .little-text {
   width: 100%;
   color: #AFAFAF;
