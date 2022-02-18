@@ -21,9 +21,9 @@
 }
 .oybek__catygory {
   margin-top: 40px;
-.order{
-flex-direction: row-reverse;
-}
+  .order {
+    flex-direction: row-reverse;
+  }
   h2 {
     margin-left: 100px;
     color: $color-white;
@@ -46,9 +46,47 @@ flex-direction: row-reverse;
     }
   }
 }
+.oybek-top-title{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .oybek-right-menu{
+    display: flex;
+    height: 40px;
+gap: 5px;
+align-items: center;
+  }
+}
 .oybek__catygory--1 {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 20px;
+}
+.oybek--rock-header {
+  width: 70%;
+  margin: 3.5rem auto;
+  .oybek-left-section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    .oybek-left-title {
+      line-height: 30px;
+      p{
+        color: $color-white;
+      }
+      pre{
+        color:$color-6;
+        font-size: 14px;
+      }
+      h1{
+        color: $color-white;
+        font-size: 40px;
+      }
+    }
+  }
+}
+.oybek-more{
+  color: $color-white;
+  font-size: 5rem;
 }

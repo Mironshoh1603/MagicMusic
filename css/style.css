@@ -58,11 +58,43 @@ li {
       color: #3a3a3d;
       font-size: 12px; }
 
+.oybek-top-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .oybek-top-title .oybek-right-menu {
+    display: flex;
+    height: 40px;
+    gap: 5px;
+    align-items: center; }
+
 .oybek__catygory--1 {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 20px; }
+
+.oybek--rock-header {
+  width: 70%;
+  margin: 3.5rem auto; }
+  .oybek--rock-header .oybek-left-section {
+    display: flex;
+    align-items: center;
+    gap: 20px; }
+    .oybek--rock-header .oybek-left-section .oybek-left-title {
+      line-height: 30px; }
+      .oybek--rock-header .oybek-left-section .oybek-left-title p {
+        color: #fff; }
+      .oybek--rock-header .oybek-left-section .oybek-left-title pre {
+        color: #3a3a3d;
+        font-size: 14px; }
+      .oybek--rock-header .oybek-left-section .oybek-left-title h1 {
+        color: #fff;
+        font-size: 40px; }
+
+.oybek-more {
+  color: #fff;
+  font-size: 5rem; }
 
 .little-text {
   width: 100%;
@@ -392,6 +424,13 @@ main {
     color: #2DCEEF;
     border: none;
     width: 70%; }
+
+.oybek-btn-menu {
+  background-image: linear-gradient(to right bottom, #2dceef, #2d9bef, #9b2def);
+  border: none; }
+
+.oybek-btn-2 {
+  border: 2px solid #fff; }
 
 .card ul {
   padding: 3rem 0 2rem; }
