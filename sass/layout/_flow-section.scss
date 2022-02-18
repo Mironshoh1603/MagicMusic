@@ -1,0 +1,21 @@
+.flow-section {
+  &-flex {
+    display: flex;
+    &__item {
+      display: flex;
+      justify-content: space-around;
+      position: relative;
+      &-image {
+        width: 30%;
+      }
+      &-play-icon {
+        position: absolute;
+      }
+      &-text {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+      }
+    }
+  }
+}

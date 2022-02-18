@@ -1,0 +1,13 @@
+@mixin text($color, $text, $line-height) {
+    color: $color;
+    @if $text == "header" {
+        font-size: 2rem;
+    }
+    @else if $text == "secondary" {
+        font-size: 1.8rem;
+    }
+    @else{
+        font-size: 1.6rem;
+    };
+    line-height: $line-height;
+}

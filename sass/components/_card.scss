@@ -1,0 +1,14 @@
+.card {
+    ul {
+        padding: 3rem 0 2rem;
+        li {
+            padding: 1rem 0;
+            span {
+                vertical-align: middle;
+            }
+            line-height: 1rem;
+            font-size: 1.6rem;
+            color: $color-10;
+        }
+    }
+}

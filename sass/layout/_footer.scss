@@ -1,0 +1,19 @@
+.footer{
+    padding: 4rem 20rem;
+    background-color: $color-4;
+    .top--footer{
+        display: flex;
+        gap: 1rem;
+        div:not(:last-child){
+            margin-right: 10rem;
+        }
+        
+    }
+    .bottom--footer{
+        display: flex;
+        gap: 1rem;
+        text-transform: capitalize;
+        padding: 2rem 0;
+    }
+
+}

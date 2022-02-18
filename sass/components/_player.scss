@@ -1,0 +1,171 @@
+.player {
+    position: relative;
+    padding: 1.6rem;
+    background-color: #3a3a3d;
+    &__inner {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    &__actress {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        &--image {
+            width: 6rem;
+            height: 6rem;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+        &--name {
+            display: flex;
+            // align-items: center;
+            flex-direction: column;
+            justify-content: center;
+            text-align: left;
+            margin: 0 2rem;
+            gap: 1rem;
+            h3 {
+                font-size: 1.6rem;
+                color: $color-10;
+            }
+            span {
+                color: #99999f;
+                font-size: 1.4rem;
+            }
+        }
+        &--icons {
+            font-size: 2.4rem;
+            color: #99999f;
+            padding: 0 1.6rem;
+            > ion-icon:last-child {
+                color: #2dceef;
+                margin-left: 1rem;
+            }
+        }
+    }
+    &__box {
+        width: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: stretch;
+        flex-direction: column;
+
+        .controls {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2.6rem;
+            &__left,
+            &__right,
+            &__play--pause {
+                display: flex;
+                align-items: center;
+                color: $color-10;
+            }
+            &__left {
+                gap: 3rem;
+                justify-content: flex-end;
+            }
+            &__right {
+                gap: 3rem;
+                justify-content: flex-start;
+            }
+            &__play--pause {
+                align-items: center;
+                margin: 0 3rem;
+            }
+        }
+        .range {
+            justify-self: stretch;
+            width: 100%;
+            max-width: 56rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.4rem;
+            &--index {
+                width: 100%;
+                margin: 0 1rem;
+                position: relative;
+                .bar {
+                    max-width: 56rem;
+                    height: 2px;
+                    background-color: #99999f;
+                    // justify-self: stretch;
+                }
+                .dot {
+                    position: absolute;
+                    top: 50%;
+                    left: 0;
+                    width: 4px;
+                    height: 4px;
+                    background-color: #2dceef;
+                    transform: translate(-50%, -50%);
+                    border-radius: 50%;
+                }
+                .dot::after {
+                    content: "";
+                    position: absolute;
+                    height: 10px;
+                    width: 10px;
+                    border-radius: 50%;
+                    border: 1px solid #2dceef;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    box-shadow: 0 0 0 2px rgba($color: #2dceef, $alpha: 0.2), 0 0 0 4px rgba($color: #2dceef, $alpha: 0.1);
+                }
+            }
+            &--left, &--right{
+                color: #99999f;
+            }
+        }
+    }
+    &__volume{
+        margin-top: 1rem;
+        width: 20%;
+        font-size: 2.4rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #99999f;
+        // position: relative;
+        ion-icon:first-child{
+            margin: 0 2rem;
+        }
+        .vol{
+            margin-left: 10px;
+            position: relative;
+            width: 100%;
+            max-width: 8rem;
+            height: 3px;
+            background-color: #99999f;
+        }
+        .vol::before{
+            content: "";
+            position: absolute;
+            height: 3px;
+            width: 40%;
+            top: 50%;
+            transform: translate(0, -50%);
+            left: 0;
+            background-color: white;
+        }
+    }
+    
+}
+
+ion-icon {
+    cursor: pointer;
+}
+#heart {
+    display: none;
+    visibility: hidden;
+}
+#heart:checked ~ .heart {
+    color: red;
+}

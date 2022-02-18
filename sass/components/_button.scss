@@ -1,0 +1,43 @@
+.btn{
+    padding: 0.5em 1.3em;
+    font-size: 2rem;
+    font-weight: 500;
+    color: $color-white;
+    
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &--light{
+        background-color: $color-white;
+        color: $main-color;
+
+    }
+    &--linear-gradient{
+        background-image: $linear-color-btn;
+        padding: 0.5rem 2rem;
+        border: none;
+    }
+    position: relative;
+    background-color: #161A1A;
+    &--linear-border{
+        outline: 5px solid transparent;
+        outline-offset: -5px;
+        outline-style: inset;
+    }
+    &--linear-border::after{
+        content: "";
+        z-index: -1;
+        position: absolute;
+        inset: -3px;
+        border-radius: 30px;
+        // inset: 5px;
+        background-image: $linear-color-btn;
+        
+    }
+    &.btn--linear-border{
+        color: #2DCEEF;
+        border: none;
+        width: 70%;
+    }
+}

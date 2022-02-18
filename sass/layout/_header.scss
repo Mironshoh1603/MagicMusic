@@ -1,0 +1,38 @@
+.header {
+    position: sticky;
+    height: 8rem;
+    width: 100%;
+    z-index: 1;
+    &-top {
+        width: 100%;
+        position: fixed;
+        padding: 2rem 20rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        backdrop-filter: blur(55px);
+    }
+    &-menus {
+        display: flex;
+        align-items: center;
+        gap: 1.5em;
+        a:not(.btn) {
+            color: #fff;
+            font-size: 1.8rem;
+            margin-right: 4rem;
+            font-weight: bold;
+            letter-spacing: 1px;
+            line-height: 32px;
+        }
+    }
+    &.after-sign {
+        .header-top {
+            padding: 2rem 4rem;
+            background-color: $color-4;
+        }
+        .header-logo{
+            display: flex;
+            gap: 1rem;
+        }
+    }
+}
