@@ -21,6 +21,10 @@ ul,
 li {
   list-style: none; }
 
+.oybek__title h1 {
+  color: #fff;
+  font-size: 40px; }
+
 .little-text {
   width: 100%;
   color: #AFAFAF;
