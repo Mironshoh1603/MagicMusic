@@ -91,6 +91,10 @@
   font-size: 5rem;
 }
 .oybek-main-section {
+  .oybek-vse {
+    display: flex;
+    justify-content: space-between;
+  }
   margin-top: 50px;
   input {
     border: none;
@@ -100,4 +104,34 @@
     background: none;
     width: 150px;
   }
+}
+.oybek-column {
+  ol {
+    margin-top: 20px;
+    li {
+      margin-bottom: 20px;
+      color: $color-white;
+    }
+    h3 {
+      display: inline-block;
+      margin-left: 10px;
+    }
+  }
+}
+.oybek-column-2 {
+  color: $color-white;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+height: 800px;
+}
+.www{
+  height: 530.33px;
+}
+.vse2{
+  margin-top: 30px;
+}
+.btn-o{
+  height: 50px;
+  width: 200px;
 }
