@@ -7,7 +7,7 @@
     "watch:sass": "node-sass sass/main.scss css/style.css -w",
     "devserver": "live-server",
     "start": "npm-run-all --parallel watch:sass devserver",
-    "compile:sass": "node-sass sass/main.scss css/style.css",
+    "compile:sass": "node-sass sass/main.scss css/style.css -w",
     "concat:css": "concat -o css/style.concat.css css/icon-fonts.css css/style.css ",
     "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' css/style.concat.css -o css/style.prefix.css",
     "compress:css": "node-sass css/style.prefix.css css/style.compress.css --output-style compressed",

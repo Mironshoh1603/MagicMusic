@@ -316,6 +316,53 @@ main {
       justify-content: center;
       flex-direction: column; }
 
+.jplay {
+  width: 75%;
+  margin: 0 auto;
+  padding: 7rem 0; }
+  .jplay .jmy-playlist {
+    font-size: 2.4rem;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+    margin: 2rem 0; }
+  .jplay .jgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 2rem;
+    row-gap: 4rem; }
+    .jplay .jgrid-div {
+      border: 2px solid white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: 80%;
+      border-radius: 1rem; }
+      .jplay .jgrid-div .plus {
+        padding: 1rem 1.5rem;
+        border-radius: 50%;
+        background-color: aqua;
+        color: white;
+        font-size: 2rem;
+        font-weight: 500; }
+    .jplay .jgrid-one {
+      display: flex;
+      flex-direction: column;
+      gap: 0.2rem; }
+      .jplay .jgrid-one .jimg img {
+        width: 100%; }
+      .jplay .jgrid-one .jmylorem {
+        color: white;
+        font-size: 1.2rem;
+        font-weight: 400; }
+
+.jmy {
+  font-size: 1.6rem;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase; }
+
 .btn {
   padding: 0.5em 1.3em;
   font-size: 2rem;

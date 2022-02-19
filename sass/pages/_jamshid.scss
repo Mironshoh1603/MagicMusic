@@ -1,0 +1,56 @@
+.jplay {
+  width: 75%;
+  margin: 0 auto;
+  padding: 7rem 0;
+  .jmy-playlist {
+    font-size: 2.4rem;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+    margin: 2rem 0;
+  }
+  .jgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 2rem;
+    row-gap: 4rem;
+    &-div {
+      border: 2px solid white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: 80%;
+      border-radius: 1rem;
+      .plus {
+        padding: 1rem 1.5rem;
+        border-radius: 50%;
+        background-color: aqua;
+        color: white;
+        font-size: 2rem;
+        font-weight: 500;
+      }
+    }
+    &-one {
+      display: flex;
+      flex-direction: column;
+      gap: 0.2rem;
+      .jimg {
+        img {
+          width: 100%;
+        }
+      }
+      .jmylorem {
+        color: white;
+        font-size: 1.2rem;
+        font-weight: 400;
+      }
+    }
+  }
+}
+.jmy {
+  font-size: 1.6rem;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+}
