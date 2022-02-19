@@ -1,0 +1,137 @@
+.oybek__title {
+  position: relative;
+  margin-top: 6rem;
+  margin-left: 10rem;
+  display: flex;
+  align-items: flex-end;
+  ul {
+    display: flex;
+    margin-left: 70px;
+    gap: 10px;
+    li {
+      color: $color-white;
+      font-size: 16px;
+      margin-right: 15px;
+    }
+  }
+  h1 {
+    color: $color-white;
+    font-size: 40px;
+  }
+}
+.oybek__catygory {
+  margin-top: 40px;
+  .order {
+    flex-direction: row-reverse;
+  }
+  h2 {
+    margin-left: 100px;
+    color: $color-white;
+    font-size: 20px;
+  }
+  img {
+    width: 200px;
+  }
+  .oybek__catygory--1 {
+  }
+  .oybek-row--1 {
+    margin-top: 10px;
+    p {
+      color: $color-white;
+      font-size: 14px;
+    }
+    pre {
+      color: $color-6;
+      font-size: 12px;
+    }
+  }
+}
+.oybek-top-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .oybek-right-menu {
+    display: flex;
+    height: 40px;
+    gap: 5px;
+    align-items: center;
+  }
+}
+.oybek__catygory--1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.oybek--rock-header {
+  width: 70%;
+  margin: 3.5rem auto;
+  .oybek-left-section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    .oybek-left-title {
+      line-height: 30px;
+      p {
+        color: $color-white;
+      }
+      pre {
+        color: $color-6;
+        font-size: 14px;
+      }
+      h1 {
+        color: $color-white;
+        font-size: 40px;
+      }
+    }
+  }
+}
+.oybek-more {
+  color: $color-white;
+  font-size: 5rem;
+}
+.oybek-main-section {
+  .oybek-vse {
+    display: flex;
+    justify-content: space-between;
+  }
+  margin-top: 50px;
+  input {
+    border: none;
+    border-bottom: 2px solid $color-white;
+    color: $color-white;
+    padding: 5px 5px;
+    background: none;
+    width: 150px;
+  }
+}
+.oybek-column {
+  ol {
+    margin-top: 20px;
+    li {
+      margin-bottom: 20px;
+      color: $color-white;
+    }
+    h3 {
+      display: inline-block;
+      margin-left: 10px;
+    }
+  }
+}
+.oybek-column-2 {
+  color: $color-white;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+height: 800px;
+}
+.www{
+  height: 530.33px;
+}
+.vse2{
+  margin-top: 30px;
+}
+.btn-o{
+  height: 50px;
+  width: 200px;
+}

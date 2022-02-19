@@ -1,7 +1,6 @@
 {
   "name": "magicmusic",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "watch:sass": "node-sass sass/main.scss css/style.css -w",
@@ -18,10 +17,19 @@
   "devDependencies": {
     "autoprefixer": "^10.4.2",
     "concat": "^1.0.3",
+    "live-server": "^1.2.1",
     "node-sass": "^7.0.1",
     "npm-run-all": "^4.1.5",
     "postcss": "^8.4.6",
-    "postcss-cli": "^9.1.0",
-    "live-server": "^1.2.1"
-  }
+    "postcss-cli": "^9.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mironshoh1603/MagicMusic.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Mironshoh1603/MagicMusic/issues"
+  },
+  "homepage": "https://github.com/Mironshoh1603/MagicMusic#readme",
+  "description": ""
 }
