@@ -1,7 +1,18 @@
-.little-text{
-    width: 100%;
-    color: #AFAFAF;
-    font-size: 2rem;
-    grid-column: 1/3;
-    margin-bottom: 7rem;
+.little-text {
+  width: 100%;
+  color: #afafaf;
+  font-size: 2rem;
+  grid-column: 1/3;
+  margin-bottom: 7rem;
+}
+.color-grey {
+  color: gray;
+  opacity: 0.6;
+  letter-spacing: 0.3rem;
+}
+.color-white {
+  color: #fff;
+}
+ion-icon {
+  display: inline-block;
 }
