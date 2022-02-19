@@ -363,6 +363,74 @@ main {
   font-weight: 600;
   text-transform: uppercase; }
 
+.jlist {
+  width: 75%;
+  margin: 0 auto;
+  padding: 8rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10rem; }
+  .jlist .jtoday {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem; }
+    .jlist .jtoday button {
+      background: none;
+      align-self: center;
+      border-radius: 5rem;
+      border: 2px solid white;
+      font-size: 1.6rem;
+      padding: 1rem 3rem;
+      color: white;
+      font-weight: 600;
+      text-transform: uppercase; }
+    .jlist .jtoday-title {
+      color: white;
+      font-weight: 700;
+      font-size: 2.4rem;
+      text-transform: capitalize; }
+    .jlist .jtoday-info {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      column-gap: 22rem; }
+      .jlist .jtoday-info .jt-one {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 5px; }
+        .jlist .jtoday-info .jt-one .jal {
+          font-size: 1.6rem;
+          font-weight: 400;
+          color: white; }
+        .jlist .jtoday-info .jt-one .jtitle {
+          font-size: 1.8rem;
+          font-weight: 400;
+          color: white;
+          text-transform: uppercase; }
+        .jlist .jtoday-info .jt-one .jt-two {
+          display: flex;
+          justify-content: flex-start;
+          gap: 1rem;
+          align-items: center; }
+          .jlist .jtoday-info .jt-one .jt-two .jtitle {
+            font-size: 1.8rem;
+            font-weight: 400;
+            color: white; }
+          .jlist .jtoday-info .jt-one .jt-two img {
+            width: 10%; }
+  .jlist-foot {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem; }
+    .jlist-foot .joot {
+      display: flex;
+      justify-content: space-between; }
+      .jlist-foot .joot .jtitle-1 {
+        font-size: 1.8rem;
+        font-weight: .300;
+        color: white;
+        text-transform: uppercase; }
+
 .btn {
   padding: 0.5em 1.3em;
   font-size: 2rem;

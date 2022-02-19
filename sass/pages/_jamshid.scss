@@ -54,3 +54,85 @@
   font-weight: 600;
   text-transform: uppercase;
 }
+.jlist {
+  width: 75%;
+  margin: 0 auto;
+  padding: 8rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10rem;
+  .jtoday {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    button {
+      background: none;
+      align-self: center;
+      border-radius: 5rem;
+      border: 2px solid white;
+      font-size: 1.6rem;
+      padding: 1rem 3rem;
+      color: white;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+    &-title {
+      color: white;
+      font-weight: 700;
+      font-size: 2.4rem;
+      text-transform: capitalize;
+    }
+    &-info {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      column-gap: 22rem;
+
+      .jt-one {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 5px;
+        .jal {
+          font-size: 1.6rem;
+          font-weight: 400;
+          color: white;
+        }
+        .jtitle {
+          font-size: 1.8rem;
+          font-weight: 400;
+          color: white;
+          text-transform: uppercase;
+        }
+        .jt-two {
+          display: flex;
+          justify-content: flex-start;
+          gap: 1rem;
+          align-items: center;
+          .jtitle {
+            font-size: 1.8rem;
+            font-weight: 400;
+            color: white;
+          }
+          img {
+            width: 10%;
+          }
+        }
+      }
+    }
+  }
+  &-foot {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    .joot {
+      display: flex;
+      justify-content: space-between;
+      .jtitle-1 {
+        font-size: 1.8rem;
+        font-weight: 0.3;
+        color: white;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
