@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 @import "./abstarcts/mixins";
 @import "./abstarcts/variables";
 @import "./base/animations";
@@ -10,11 +9,12 @@
 @import "./layout/header";
 @import "./layout/navigations";
 @import "./layout/flow-section";
-@import "./pages/jamshid";
+
+@import "pages/jamshid";
 @import "./components/button";
 @import "./components/card";
 @import "./components/player";
-=======
+
 @import "abstarcts/mixins";
 @import "abstarcts/variables";
 
@@ -35,4 +35,3 @@
 @import "components/button";
 @import "components/card";
 @import "components/player";
->>>>>>> f360c743234f6c20a66903d86cedc9b602d506e6
