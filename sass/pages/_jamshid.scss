@@ -222,3 +222,123 @@
     }
   }
 }
+.jradio {
+  margin: 10rem 0 5rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  &-big {
+    display: flex;
+    gap: 2rem;
+    img {
+      width: 20%;
+    }
+  }
+  &-one {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    &-txt {
+      font-size: 1.6rem;
+      font-weight: 400;
+      color: white;
+    }
+    &-big {
+      font-size: 3.2rem;
+      font-weight: 700;
+      color: white;
+    }
+  }
+  .jradio-btn {
+    padding: 1rem 5rem;
+    border-radius: 3rem;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 2rem;
+    background-image: linear-gradient(
+      90deg,
+      #35edfb -10%,
+      #2d9bef 30%,
+      #9b2def 130%
+    );
+  }
+  &-btm {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    &-title {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      gap: 30rem;
+      .jrtitle {
+        font-size: 1.8rem;
+        color: #aaa;
+        font-weight: 400;
+        text-transform: uppercase;
+      }
+    }
+    &-one {
+      padding: 2rem 0;
+      &:last-child {
+        opacity: 0.5;
+        padding-top: 3rem;
+      }
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      gap: 30rem;
+      &:hover {
+        background-color: #777;
+      }
+      &-sect {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 1rem;
+        img {
+          width: 20%;
+        }
+        .jrtitlea {
+          font-size: 1.8rem;
+          font-weight: 400;
+          color: #aaa;
+        }
+        .jrtitleb {
+          font-size: 2rem;
+          font-weight: 600;
+          color: white;
+        }
+      }
+      &-art {
+        font-size: 1.6rem;
+        font-weight: 600;
+        color: white;
+      }
+      &-alb {
+        font-size: 1.6rem;
+        color: #aaa;
+        font-weight: 300;
+      }
+    }
+  }
+}
+.jtxt {
+  font-size: 3rem;
+  font-weight: 700;
+  color: white;
+  margin-top: 6rem;
+  margin-bottom: 2rem;
+}
+.jplayer {
+  position: fixed;
+  bottom: 20vh;
+}
+.jmore {
+  font-size: 2rem;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  position: fixed !important;
+  bottom: 15vh !important;
+  margin-left: 42%;
+}
