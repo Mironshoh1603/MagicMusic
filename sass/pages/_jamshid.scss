@@ -342,3 +342,167 @@
   bottom: 15vh !important;
   margin-left: 42%;
 }
+.jsettings {
+  width: 50%;
+  margin: 0 auto;
+  .jtop {
+    margin: 8rem 0 4rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &-one {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      &-text {
+        font-size: 2.4rem;
+        font-weight: 600;
+        color: white;
+      }
+      &-txt {
+        font-size: 2rem;
+        color: #aaa;
+        font-weight: lighter;
+      }
+    }
+    .jgo {
+      padding: 1rem 5rem;
+      color: white;
+      font-size: 2rem;
+      text-transform: uppercase;
+      font-weight: bold;
+      background-image: linear-gradient(
+        90deg,
+        #35edfb -10%,
+        #2d9bef 30%,
+        #9b2def 130%
+      );
+      border-radius: 3rem;
+      border: none;
+    }
+  }
+  .jcont {
+    font-size: 3.2rem;
+    font-weight: 700;
+    color: white;
+    margin: 1rem 0;
+    text-transform: uppercase;
+  }
+  .jcontact {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    &-one {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 4rem;
+      padding: 1rem 0;
+      &-face {
+        font-size: 2.4rem;
+        color: white;
+        font-weight: 400;
+      }
+      &-not {
+        font-size: 1.8rem;
+        font-weight: 400;
+        color: #ddd;
+      }
+      .jlabel {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        align-items: flex-start;
+        .j-label {
+          font-size: 1.2rem;
+          font-weight: 400;
+          color: #ccc;
+          text-transform: uppercase;
+        }
+        input {
+          width: 100%;
+          padding: 1rem 0;
+          border: none;
+          background: none;
+          border-bottom: 2px solid #ddd;
+          &::placeholder {
+            font-size: 2rem;
+            font-weight: 600;
+            color: white;
+            text-transform: capitalize;
+          }
+        }
+        select {
+          width: 100%;
+          padding: 1rem 0;
+          border: none;
+          background: none;
+          border-bottom: 2px solid #ddd;
+          font-size: 2rem;
+          font-weight: 600;
+          color: white;
+          text-transform: capitalize;
+          option {
+            background: none;
+          }
+        }
+      }
+    }
+    &-lab {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      &-inp {
+        width: 100%;
+        padding: 1rem 0;
+        border: none;
+        background: none;
+        border-bottom: 2px solid #ddd;
+        &::placeholder {
+          font-size: 2rem;
+          font-weight: 600;
+          color: white;
+          text-transform: capitalize;
+        }
+      }
+      .j-label {
+        font-size: 1.2rem;
+        font-weight: 400;
+        color: #ccc;
+        text-transform: uppercase;
+      }
+    }
+    &-txt {
+      font-size: 2.4rem;
+      font-weight: 600;
+      color: white;
+      padding: 1rem 0;
+      border-bottom: 2px solid #ddd;
+    }
+    &-stream {
+      display: flex;
+      flex-direction: column;
+      gap: 1.6rem;
+      opacity: 0.8;
+      padding: 1rem 0;
+      border-bottom: 2px solid #ddd;
+      &-one {
+        font-size: 1.6rem;
+        font-weight: 400;
+        color: #eee;
+      }
+    }
+    &-account {
+      display: flex;
+      flex-direction: column;
+      gap: 1.2rem;
+      &-one {
+        font-size: 1.4rem;
+        font-weight: 500;
+        color: white;
+      }
+    }
+  }
+}
