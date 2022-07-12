@@ -1,0 +1,508 @@
+.jplay {
+  width: 75%;
+  margin: 0 auto;
+  padding: 7rem 0;
+  .jmy-playlist {
+    font-size: 2.4rem;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+    margin: 2rem 0;
+  }
+  .jgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 2rem;
+    row-gap: 4rem;
+    &-div {
+      border: 2px solid white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: 80%;
+      border-radius: 1rem;
+      .plus {
+        padding: 1rem 1.5rem;
+        border-radius: 50%;
+        background-color: aqua;
+        color: white;
+        font-size: 2rem;
+        font-weight: 500;
+      }
+    }
+    &-one {
+      display: flex;
+      flex-direction: column;
+      gap: 0.2rem;
+      .jimg {
+        img {
+          width: 100%;
+        }
+      }
+      .jmylorem {
+        color: white;
+        font-size: 1.2rem;
+        font-weight: 400;
+      }
+    }
+  }
+}
+.jmy {
+  font-size: 1.6rem;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.jlist {
+  width: 75%;
+  margin: 0 auto;
+  padding: 8rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10rem;
+  .jtoday {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    button {
+      background: none;
+      align-self: center;
+      border-radius: 5rem;
+      border: 2px solid white;
+      font-size: 1.6rem;
+      padding: 1rem 3rem;
+      color: white;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+    &-title {
+      color: white;
+      font-weight: 700;
+      font-size: 2.4rem;
+      text-transform: capitalize;
+    }
+    &-info {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      column-gap: 22rem;
+
+      .jt-one {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 5px;
+        .jal {
+          font-size: 1.6rem;
+          font-weight: 400;
+          color: white;
+        }
+        .jtitle {
+          font-size: 1.8rem;
+          font-weight: 400;
+          color: white;
+          text-transform: uppercase;
+        }
+        .jt-two {
+          display: flex;
+          justify-content: flex-start;
+          gap: 1rem;
+          align-items: center;
+          .jtitle {
+            font-size: 1.8rem;
+            font-weight: 400;
+            color: white;
+          }
+          img {
+            width: 10%;
+          }
+        }
+      }
+    }
+  }
+  &-foot {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    .joot {
+      display: flex;
+      justify-content: space-between;
+      .jtitle-1 {
+        font-size: 1.8rem;
+        font-weight: 300;
+        color: white;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+.jmain {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.jsearch {
+  padding: 1rem 3rem;
+  border-radius: 5rem;
+  margin-left: 5rem;
+}
+.jmy-podcast {
+  margin: 10rem 0 2rem 0;
+  font-size: 2.4rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: white;
+}
+.hrdt {
+  margin-left: 14%;
+  margin-right: 5%;
+  z-index: -3;
+}
+.jpodcast-one {
+  display: flex;
+  gap: 2rem;
+  justify-content: stretch;
+  .jone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    padding: 8rem 2rem;
+    height: 10%;
+    &-text {
+      font-size: 2rem;
+      font-weight: 700;
+      color: white;
+      text-transform: capitalize;
+    }
+  }
+  .jpo-two {
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    img {
+      width: 100%;
+    }
+    &-text {
+      color: white;
+      font-size: 1.6rem;
+      font-weight: 500;
+    }
+  }
+}
+.jright-nav {
+  width: 20%;
+  background-color: #555;
+  padding: 2rem 2rem;
+  position: absolute;
+  height: 95vh;
+  right: 5%;
+  top: 10rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  .jrec {
+    font-size: 2.4rem;
+    font-weight: 600;
+    color: white;
+    text-transform: capitalize;
+    margin: 1.5rem 0;
+  }
+  .jpo-rec {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    img {
+      width: 10%;
+    }
+    .jpo-two-text {
+      color: white;
+      font-size: 1.6rem;
+    }
+  }
+}
+.jradio {
+  margin: 10rem 0 5rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  &-big {
+    display: flex;
+    gap: 2rem;
+    img {
+      width: 20%;
+    }
+  }
+  &-one {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    &-txt {
+      font-size: 1.6rem;
+      font-weight: 400;
+      color: white;
+    }
+    &-big {
+      font-size: 3.2rem;
+      font-weight: 700;
+      color: white;
+    }
+  }
+  .jradio-btn {
+    padding: 1rem 5rem;
+    border-radius: 3rem;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 2rem;
+    background-image: linear-gradient(
+      90deg,
+      #35edfb -10%,
+      #2d9bef 30%,
+      #9b2def 130%
+    );
+  }
+  &-btm {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    &-title {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      gap: 30rem;
+      .jrtitle {
+        font-size: 1.8rem;
+        color: #aaa;
+        font-weight: 400;
+        text-transform: uppercase;
+      }
+    }
+    &-one {
+      padding: 2rem 0;
+      &:last-child {
+        opacity: 0.5;
+        padding-top: 3rem;
+      }
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      gap: 30rem;
+      &:hover {
+        background-color: #777;
+      }
+      &-sect {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 1rem;
+        img {
+          width: 20%;
+        }
+        .jrtitlea {
+          font-size: 1.8rem;
+          font-weight: 400;
+          color: #aaa;
+        }
+        .jrtitleb {
+          font-size: 2rem;
+          font-weight: 600;
+          color: white;
+        }
+      }
+      &-art {
+        font-size: 1.6rem;
+        font-weight: 600;
+        color: white;
+      }
+      &-alb {
+        font-size: 1.6rem;
+        color: #aaa;
+        font-weight: 300;
+      }
+    }
+  }
+}
+.jtxt {
+  font-size: 3rem;
+  font-weight: 700;
+  color: white;
+  margin-top: 6rem;
+  margin-bottom: 2rem;
+}
+.jplayer {
+  position: fixed;
+  bottom: 20vh;
+}
+.jmore {
+  font-size: 2rem;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  position: fixed !important;
+  bottom: 15vh !important;
+  margin-left: 42%;
+}
+.jsettings {
+  width: 50%;
+  margin: 0 auto;
+  .jtop {
+    margin: 8rem 0 4rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &-one {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      &-text {
+        font-size: 2.4rem;
+        font-weight: 600;
+        color: white;
+      }
+      &-txt {
+        font-size: 2rem;
+        color: #aaa;
+        font-weight: lighter;
+      }
+    }
+    .jgo {
+      padding: 1rem 5rem;
+      color: white;
+      font-size: 2rem;
+      text-transform: uppercase;
+      font-weight: bold;
+      background-image: linear-gradient(
+        90deg,
+        #35edfb -10%,
+        #2d9bef 30%,
+        #9b2def 130%
+      );
+      border-radius: 3rem;
+      border: none;
+    }
+  }
+  .jcont {
+    font-size: 3.2rem;
+    font-weight: 700;
+    color: white;
+    margin: 1rem 0;
+    text-transform: uppercase;
+  }
+  .jcontact {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    &-one {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 4rem;
+      padding: 1rem 0;
+      &-face {
+        font-size: 2.4rem;
+        color: white;
+        font-weight: 400;
+      }
+      &-not {
+        font-size: 1.8rem;
+        font-weight: 400;
+        color: #ddd;
+      }
+      .jlabel {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        align-items: flex-start;
+        .j-label {
+          font-size: 1.2rem;
+          font-weight: 400;
+          color: #ccc;
+          text-transform: uppercase;
+        }
+        input {
+          width: 100%;
+          padding: 1rem 0;
+          border: none;
+          background: none;
+          border-bottom: 2px solid #ddd;
+          &::placeholder {
+            font-size: 2rem;
+            font-weight: 600;
+            color: white;
+            text-transform: capitalize;
+          }
+        }
+        select {
+          width: 100%;
+          padding: 1rem 0;
+          border: none;
+          background: none;
+          border-bottom: 2px solid #ddd;
+          font-size: 2rem;
+          font-weight: 600;
+          color: white;
+          text-transform: capitalize;
+          option {
+            background: none;
+          }
+        }
+      }
+    }
+    &-lab {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      &-inp {
+        width: 100%;
+        padding: 1rem 0;
+        border: none;
+        background: none;
+        border-bottom: 2px solid #ddd;
+        &::placeholder {
+          font-size: 2rem;
+          font-weight: 600;
+          color: white;
+          text-transform: capitalize;
+        }
+      }
+      .j-label {
+        font-size: 1.2rem;
+        font-weight: 400;
+        color: #ccc;
+        text-transform: uppercase;
+      }
+    }
+    &-txt {
+      font-size: 2.4rem;
+      font-weight: 600;
+      color: white;
+      padding: 1rem 0;
+      border-bottom: 2px solid #ddd;
+    }
+    &-stream {
+      display: flex;
+      flex-direction: column;
+      gap: 1.6rem;
+      opacity: 0.8;
+      padding: 1rem 0;
+      border-bottom: 2px solid #ddd;
+      &-one {
+        font-size: 1.6rem;
+        font-weight: 400;
+        color: #eee;
+      }
+    }
+    &-account {
+      display: flex;
+      flex-direction: column;
+      gap: 1.2rem;
+      &-one {
+        font-size: 1.4rem;
+        font-weight: 500;
+        color: white;
+      }
+    }
+  }
+}
